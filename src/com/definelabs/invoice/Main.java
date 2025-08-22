@@ -12,9 +12,9 @@ public class Main {
 	{
 		Scanner sc = new Scanner(System.in);
 		// Define individual taxes
-        Tax vat = new Tax("VAT", 2);
-        Tax sgst = new Tax("SGST", 5);
-        Tax cgst = new Tax("CGST", 5);
+        Tax vat = new Tax("VAT", 1.846);
+        Tax sgst = new Tax("SGST", 10);
+        Tax cgst = new Tax("CGST", 10);
 
         // Define TaxGroups
         TaxGroup noTax = new TaxGroup("No Tax",new ArrayList<Tax>());

@@ -52,7 +52,7 @@ public class TaxGroup {
 		  // Loop through each tax in the group and calculate contribution
 		for(Tax t:taxes)
 		{
-			totalTax +=(price*t.getPercent()/100);
+			 totalTax += price * t.getPercent() / 100.0;
 		}
 		return totalTax;
 	}

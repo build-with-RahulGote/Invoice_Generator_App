@@ -29,8 +29,8 @@ public class Invoice {
             totalTax += tax;
         }
         
-        System.out.println("\nTotal\t\t" + totalPrice + "\t" + totalTax);
-        System.out.println("Grand Total : " + (totalPrice + totalTax));
+        System.out.printf("\nTotal\t\t%.1f\t%.1f%n", totalPrice, totalTax); 
+        System.out.printf("Grand Total : %.1f%n", totalPrice + totalTax);   
         System.out.println("-----------------------------");
     
 	}
