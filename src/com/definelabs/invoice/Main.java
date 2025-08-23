@@ -11,6 +11,7 @@ public class Main {
 	public static void  main(String [] arg)
 	{
 		Scanner sc = new Scanner(System.in);
+		
 		// Define individual taxes
         Tax vat = new Tax("VAT", 1.846);
         Tax sgst = new Tax("SGST", 10);
